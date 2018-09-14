@@ -17,4 +17,12 @@ public class Operators {
 		return (a*b);
 	}
 	
+	public static double div(int a,int b)
+	{
+		if(a!=0 && b!=0)
+		{
+			return a/b;
+		}
+		return 0.0d;
+	}
 }
